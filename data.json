@@ -1,0 +1,127 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Tomas",
+      "surname": "Dudovicius",
+      "username": "parukom",
+      "age": 32,
+      "email": "tomas@mail.com",
+      "password": "allGood"
+    },
+    {
+      "name": "Bill",
+      "surname": "Gates",
+      "username": "billGates",
+      "age": "60",
+      "email": "bgates@microsoft.com",
+      "password": "billgates",
+      "id": 2
+    },
+    {
+      "name": "Arnorld",
+      "surname": "Szwarzneggerr",
+      "username": "terminator",
+      "age": "65",
+      "email": "a.sz@mail.com",
+      "password": "terminator",
+      "id": 3
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "user_id": 3,
+      "question": "What's was the easiest to learn in TS group? 22"
+    },
+    {
+      "id": 2,
+      "user_id": 1,
+      "question": "Why is so raining today? Why rain on festival?"
+    },
+    {
+      "id": 3,
+      "user_id": 2,
+      "question": "Any complains?"
+    },
+    {
+      "question": "Is ir friday?",
+      "user_id": 1,
+      "id": 4
+    }
+  ],
+  "answers": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "question_id": 1,
+      "answer": "asd"
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "question_id": 1,
+      "answer": "I'd say begining, HTML and CSS .. :D "
+    },
+    {
+      "id": 4,
+      "user_id": 2,
+      "question_id": 3,
+      "answer": "I agree with Parukom "
+    },
+    {
+      "id": 5,
+      "user_id": 3,
+      "question_id": 3,
+      "answer": "I agree with both of you "
+    },
+    {
+      "id": 6,
+      "user_id": 3,
+      "question_id": 2,
+      "answer": "Don't worry, Parukom, real for real ravers that's not an issue 😎"
+    },
+    {
+      "user_id": 3,
+      "question_id": 4,
+      "answer": "not yet my man ",
+      "id": 8
+    },
+    {
+      "user_id": 3,
+      "question_id": 1,
+      "answer": "I've been programmed, I am the CODE!",
+      "id": 9
+    },
+    {
+      "user_id": 2,
+      "question_id": 1,
+      "answer": "when I started to code HTML and CSS never exist.. 😅",
+      "id": 10
+    },
+    {
+      "user_id": 1,
+      "question_id": 4,
+      "answer": "is it yet?",
+      "id": 11
+    },
+    {
+      "user_id": 3,
+      "question_id": 4,
+      "answer": "yea man",
+      "id": 12
+    },
+    {
+      "user_id": 1,
+      "question_id": 1,
+      "answer": "you old bastard, Bill...",
+      "id": 13
+    },
+    {
+      "user_id": 1,
+      "question_id": 4,
+      "answer": "you miscalculated, bot... 😁",
+      "id": 14
+    }
+  ]
+}
